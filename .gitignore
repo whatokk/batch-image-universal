@@ -1,0 +1,25 @@
+# ── 密钥与私有配置（绝不提交）──
+config.json
+.env
+.env.*
+*.key
+credentials.json
+
+# ── 出图产物 ──
+output/
+output-*/
+masks/
+mask_preview/
+
+# ── 参考图（体积大且常含私有素材，按需自行决定是否提交）──
+ref/
+
+# ── 运行产物 ──
+*.log
+*.tmp
+failed.txt
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
